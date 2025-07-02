@@ -1,4 +1,4 @@
-# web-programming-lessons 🌐 Programação Web - IF Goiano Campus Posse
+# 🌐 Programação Web - IF Goiano Campus Posse (_web-programming-lessons_)
 
 > Professor: George Oliveira Barros
 
