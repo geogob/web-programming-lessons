@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placar</title>
+    <link rel="stylesheet" href="placar.css">
+</head>
+<body>
+    <script src="placar.js"></script>
+    <div class="conteudo">
+        <div class="esquerda">
+            <button onclick="pontuacaoEsquerda(2)">+2</button>
+            <button onclick="pontuacaoEsquerda(3)">+3</button>
+        </div>
+        <div class="placar">
+            <div id="pontuacao"> 
+                    <label id="pontoE">0</label> 
+                    x 
+                    <label id="pontoD">0</label>
+            </div>
+        </div>
+        <div class="direita">
+            <button onclick="pontuacaoDireita(2)">+2</button>
+            <button onclick="pontuacaoDireita(3)">+3</button>
+        </div>
+    </div>
+    <div id="times">Time 1 x Time 2</div>
+    <div id="tempo">Tempo restante - 00:00. 
+        <a href="">Reiniciar</a>
+    </div>
+</body>
+</html>

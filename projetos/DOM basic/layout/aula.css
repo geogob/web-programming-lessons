@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(4, 74, 74);
+    color: aliceblue;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 80vh;  
+    display: flex;
+    flex-direction: column;  
+}
+.sidebar{
+    flex: 1;
+    background-color: bisque;
+}
+
+.content{
+    flex:3;
+    background-color: cadetblue;
+}
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(4, 74, 74);
+    color: aliceblue;
+    text-align: center;
+}
+/* Para Tablet */
+@media (min-width: 600px) {
+    .container{
+        flex-direction: row;
+    }
+}
+
+/* Para Desktop */
+@media (min-width: 1024px) {
+    .container{
+        flex-direction: row;
+    }
+    .sidebar{
+        background-color: rgb(162, 103, 44);
+    }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <h2>Página das Cores</h2>
+    <div class="conteudo">
+        <div class="left">
+            <button onclick="alterarCor(1)" id="branco">Branco</button>
+            <button onclick="alterarCor(2)" id="vermelho">Vermelho</button>
+            <button onclick="alterarCor(3)" id="verde">Verde</button>
+            <button onclick="alterarCor(4)" id="azul">Azul</button>
+            <button onclick="alterarCor(5)" id="preto">Preto</button>
+        </div>
+        <div class="right">
+            <div id="cor"></div>
+        </div>
+    </div>
+    <div class="footer">
+        <input id="tamanho" onchange="alterarTamanho()" 
+        type="range" min="10" max="100">
+    </div>
+</body>
+</html>
