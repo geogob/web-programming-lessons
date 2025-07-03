@@ -7,9 +7,56 @@ let tabela = [
 let contador = 0;   
 
 function verificarVencedor(){
+    
+    //verificando as linhas
     if(tabela[0][0]==tabela[0][1] & tabela[0][1]==tabela[0][2]){
-        alert("Parabéns jogador "+tabela[0][0]);
+        if(tabela[0][0]!=""){
+           alert("Parabéns jogador "+tabela[0][0]); 
+        }     
     }
+    if(tabela[1][0]==tabela[1][1] & tabela[1][1]==tabela[1][2]){
+        if(tabela[1][0]!=""){
+            alert("Parabéns jogador "+tabela[1][0]);
+        }
+    }
+    if(tabela[2][0]==tabela[2][1] & tabela[2][1]==tabela[2][2]){
+        if(tabela[2][0]!=""){
+            alert("Parabéns jogador "+tabela[1][0]);
+        }
+    }
+
+    //verificando colunas
+    if(tabela[0][0]==tabela[1][0] & tabela[1][0]==tabela[2][0]){
+        if(tabela[0][0]!=""){
+            alert("Parabéns jogador "+tabela[0][0]);
+        }
+    }
+
+    if(tabela[0][1]==tabela[1][1] & tabela[1][1]==tabela[2][1]){
+        if(tabela[0][1]!=""){
+            alert("Parabéns jogador "+tabela[0][1]);
+        }
+    }
+
+    if(tabela[0][2]==tabela[1][2] & tabela[1][2]==tabela[2][2]){
+        if(tabela[0][2]!=""){
+            alert("Parabéns jogador "+tabela[0][2]);
+        }
+    }
+
+    //verificando diagonais
+    if(tabela[0][0]==tabela[1][1] & tabela[1][1]==tabela[2][2]){
+        if(tabela[0][0]!=""){
+            alert("Parabéns jogador "+tabela[0][0]);
+        }
+    }
+
+    if(tabela[2][0]==tabela[1][1] & tabela[1][1]==tabela[0][2]){
+        if(tabela[2][0]!=""){
+            alert("Parabéns jogador "+tabela[2][0]);
+        }
+    }
+
 }
 
 function escrever(lugar, x, y){
