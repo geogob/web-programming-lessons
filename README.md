@@ -10,7 +10,7 @@ Bem-vindo(a) ao universo da Web! Este espaço é dedicado aos conteúdos, exempl
 
 ## ✉️ Contato
 
-**Professor**: George Barros  
+**Professor**: George Oliveira Barros  
 📧 george.barros@ifgoiano.edu.br  
 📍 Instituto Federal Goiano – Campus Posse  
 📄 [Currículo Lattes](http://lattes.cnpq.br/6170151743824191)
